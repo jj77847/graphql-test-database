@@ -1,0 +1,26 @@
+{
+  "name": "graphql-test-database",
+  "version": "1.0.0",
+  "description": "testing graphql database",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodenmon src/index.js",
+    "start": "node src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jj77847/graphql-test-database.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jj77847/graphql-test-database/issues"
+  },
+  "homepage": "https://github.com/jj77847/graphql-test-database#readme",
+  "dependencies": {
+    "apollo-server": "^3.6.2",
+    "graphql": "^16.3.0",
+    "nodemon": "^2.0.15"
+  }
+}
